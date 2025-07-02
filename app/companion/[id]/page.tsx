@@ -1,4 +1,3 @@
-import Rect from 'react'
 const CompanionSession =() =>{
     return(
         <div>CompanionSession</div>
