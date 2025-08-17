@@ -1,9 +1,8 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  typescript:{
-    ignoreDuringBuilds: true
+const nextConfig: NextConfig = {
+  eslint: {
+    ignoreDuringBuilds: true, 
   },
   images: {
     remotePatterns: [
@@ -15,8 +14,4 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
-
-
-
-export default nextConfig;
+export default nextConfig; 
